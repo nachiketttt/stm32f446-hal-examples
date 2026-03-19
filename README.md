@@ -11,33 +11,33 @@ all are written manually.
 ## Contents
 
 ### UART
-| Project | Description |
+| Projects | Description |
 |---------|-------------|
 | 001_UART2_Example | UART2 TX/RX in polling mode |
 | 002_UART2_Example_IT | UART2 TX/RX in interrupt mode with callback |
 
 ### Clock_Config
-| Project | Description |
+| Projects | Description |
 |---------|-------------|
 | 003_HSE_SYSCLK_8Mhz | HSE crystal as system clock at 8MHz |
 | 004_PLL_SYSCLK | PLL configured from HSI |
 | 005_PLL_SYSCLK_HSE | PLL configured from HSE for stable clock |
 
 ### Timers-PWM
-| Project | Description |
+| Projects | Description |
 |---------|-------------|
 | 006_Time_base_100ms | TIM6 basic timebase 100ms polling |
 | 007_Time_base_100ms_IT | TIM6 timebase 100ms interrupt mode |
 | 008_Time_base_10ms | TIM6 timebase 10ms precision |
-| 009_timer_IC_1 | Input capture — measure external signal frequency |
-| 010_timerOC_1 | Output compare — precise timing event generation |
-| 011_timerOC_PWM | PWM generation using output compare |
+| 009_timer_IC_1 | Input capture to measure external signal frequency |
+| 010_timerOC_1 | Output compare used for precise timing event generation |
+| 011_timerOC_PWM | PWM generation using output compare mode |
 | 012_timerPWM_LED | PWM LED brightness control |
 
 ### CAN
-| Project | Description |
+| Projects | Description |
 |---------|-------------|
-| 013_CAN_LoopBack | CAN1 loopback test — TX frame received back and verified |
+| 013_CAN_LoopBack | CAN1 loopback test where TX frame received back and verified |
 
 ## Key Implementation Notes
 - HSE requires `RCC_HSE_BYPASS` on Nucleo (it uses ST-LINK clock)
