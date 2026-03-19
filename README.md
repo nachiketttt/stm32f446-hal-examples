@@ -10,20 +10,20 @@ all written manually.
 
 ## Contents
 
-### UART/
+### UART
 | Project | Description |
 |---------|-------------|
 | 001_UART2_Example | UART2 TX/RX in polling mode |
 | 002_UART2_Example_IT | UART2 TX/RX in interrupt mode with callback |
 
-### Clock_Config/
+### Clock_Config
 | Project | Description |
 |---------|-------------|
 | 003_HSE_SYSCLK_8Mhz | HSE crystal as system clock at 8MHz |
 | 004_PLL_SYSCLK | PLL configured from HSI |
 | 005_PLL_SYSCLK_HSE | PLL configured from HSE for stable clock |
 
-### Timers-PWM/
+### Timers-PWM
 | Project | Description |
 |---------|-------------|
 | 006_Time_base_100ms | TIM6 basic timebase 100ms polling |
@@ -34,7 +34,7 @@ all written manually.
 | 011_timerOC_PWM | PWM generation using output compare |
 | 012_timerPWM_LED | PWM LED brightness control |
 
-### CAN/
+### CAN
 | Project | Description |
 |---------|-------------|
 | 013_CAN_LoopBack | CAN1 loopback test — TX frame received back and verified |
