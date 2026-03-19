@@ -1,5 +1,3 @@
-# STM32F446RE HAL Examples
-
 Hand-written peripheral configurations for STM32F446RE 
 using STM32 HAL drivers. No CubeMX code generation — 
 MSP callbacks, interrupt handlers, and peripheral init 
@@ -9,63 +7,6 @@ all written manually.
 - STM32 Nucleo F446RE
 - Logic analyzer (Saleae) for signal verification
 - TJA1050 CAN transceiver for CAN examples
-
-## Contents
-
-### UART/
-| Project | Description |
-|---------|-------------|
-| 001_UART2_Example | UART2 TX/RX in polling mode |
-| 002_UART2_Example_IT | UART2 TX/RX in interrupt mode with callback |
-
-### Clock_Config/
-| Project | Description |
-|---------|-------------|
-| 003_HSE_SYSCLK_8Mhz | HSE crystal as system clock at 8MHz |
-| 004_PLL_SYSCLK | PLL configured from HSI |
-| 005_PLL_SYSCLK_HSE | PLL configured from HSE for stable clock |
-
-### Timers-PWM/
-| Project | Description |
-|---------|-------------|
-| 006_Time_base_100ms | TIM6 basic timebase 100ms polling |
-| 007_Time_base_100ms_IT | TIM6 timebase 100ms interrupt mode |
-| 008_Time_base_10ms | TIM6 timebase 10ms precision |
-| 009_timer_IC_1 | Input capture — measure external signal frequency |
-| 010_timerOC_1 | Output compare — precise timing event generation |
-| 011_timerOC_PWM | PWM generation using output compare |
-| 012_timerPWM_LED | PWM LED brightness control |
-
-### CAN/
-| Project | Description |
-|---------|-------------|
-| 013_CAN_LoopBack | CAN1 loopback test — TX frame received back and verified |
-
-## Key Implementation Notes
-- HSE requires `RCC_HSE_BYPASS` on Nucleo (uses ST-LINK clock)
-- SysTick fix must be applied before `HAL_RCC_ClockConfig` 
-  in every HSE project
-- All interrupt handlers written manually in separate IT files
-- MSP init functions handle GPIO alternate function config
-
-## Verification
-
-### CAN Loopback — PulseView Capture
-![CAN Loopback](images/can_loopback.png)
-
-### PWM Output — PulseView Capture  
-![PWM Waveform Rising](images/pwm_output.png)
-# STM32F446RE HAL Examples
-
-Hand-written peripheral configurations for STM32F446RE 
-using STM32 HAL drivers. No CubeMX code generation — 
-MSP callbacks, interrupt handlers, and peripheral init 
-all written manually.
-
-## Hardware
-- STM32 Nucleo F446RE
-- Logic analyzer (Saleae) for signal verification
-- SN65HVD230 CAN transceiver for CAN examples
 
 ## Contents
 
