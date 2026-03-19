@@ -1,0 +1,15 @@
+/*
+ * it.c
+ *
+ *  Created on: Mar 6, 2026
+ *      Author: nachiket
+ */
+#include "main.h"
+#include "stm32f4xx_hal.h"
+
+void SysTick_Handler(void)
+{
+	HAL_IncTick();
+	HAL_SYSTICK_IRQHandler();
+}
+
