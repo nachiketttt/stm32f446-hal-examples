@@ -1,7 +1,7 @@
 Hand-written peripheral configurations for STM32F446RE 
-using STM32 HAL drivers. No CubeMX code generation — 
-MSP callbacks, interrupt handlers, and peripheral init 
-all written manually.
+using STM32 HAL drivers. No CubeMX code generation is used— 
+MSP callbacks, interrupt handlers, and peripheral inits, 
+all are written manually.
 
 ## Hardware
 - STM32 Nucleo F446RE
@@ -40,10 +40,10 @@ all written manually.
 | 013_CAN_LoopBack | CAN1 loopback test — TX frame received back and verified |
 
 ## Key Implementation Notes
-- HSE requires `RCC_HSE_BYPASS` on Nucleo (uses ST-LINK clock)
-- SysTick fix must be applied before `HAL_RCC_ClockConfig` 
+- HSE requires `RCC_HSE_BYPASS` on Nucleo (it uses ST-LINK clock)
+- SysTick fix was applied before `HAL_RCC_ClockConfig` 
   in every HSE project
-- MSP init functions handle GPIO alternate function config
+- MSP init functions handle GPIO alternate function config (low level programming)
 
 ## Verification
 
@@ -51,7 +51,7 @@ all written manually.
 ![CAN Loopback](img/CAN_loopback.png)
 
 ### PWM Output — PulseView Capture
-- PWM duty cycle sweeps from 0% to 100% continuously — period remains constant at 1.0ms (1kHz frequency).
+- PWM duty cycle sweeps from 0% to 100% continuously and the period remains constant at 1.0ms and 1kHz frequency is also maintained.
 #### PWM Output — Rising
 ![PWM Waveform Rising](img/pwm_up.png)
 
