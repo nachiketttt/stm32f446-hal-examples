@@ -51,6 +51,9 @@ all written manually.
 ### CAN Loopback — PulseView Capture
 ![CAN Loopback](img/CAN_loopback.png)
 
-### PWM Output — PulseView Capture  
+### PWM Output — PulseView Capture
+## PWM Output — Rising
 ![PWM Waveform Rising](img/pwm_up.png)
+
+## PWM Output — Falling
 ![PWM Waveform Falling](img/pwm_down.png)
