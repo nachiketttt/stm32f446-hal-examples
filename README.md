@@ -43,7 +43,6 @@ all written manually.
 - HSE requires `RCC_HSE_BYPASS` on Nucleo (uses ST-LINK clock)
 - SysTick fix must be applied before `HAL_RCC_ClockConfig` 
   in every HSE project
-- All interrupt handlers written manually in separate IT files
 - MSP init functions handle GPIO alternate function config
 
 ## Verification
