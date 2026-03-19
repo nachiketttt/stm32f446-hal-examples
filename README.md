@@ -51,6 +51,7 @@ all written manually.
 ![CAN Loopback](img/CAN_loopback.png)
 
 ### PWM Output — PulseView Capture
+- PWM duty cycle sweeps from 0% to 100% continuously — period remains constant at 1.0ms (1kHz frequency).
 #### PWM Output — Rising
 ![PWM Waveform Rising](img/pwm_up.png)
 
