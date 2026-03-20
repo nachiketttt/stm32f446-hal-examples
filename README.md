@@ -1,6 +1,6 @@
 Hand-written peripheral configurations for STM32F446RE 
-using STM32 HAL drivers. No CubeMX code generation is used— 
-MSP callbacks, interrupt handlers, and peripheral inits, 
+using STM32 HAL drivers. No CubeMX code generation is used for 
+MSP callbacks, interrupt handlers and peripheral inits, 
 all are written manually.
 
 ## Hardware
