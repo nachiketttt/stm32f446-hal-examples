@@ -49,6 +49,8 @@ all are written manually.
 
 ### CAN Loopback — PulseView Capture
 ![CAN Loopback](img/CAN_loopback.png)
+## Moserial Output 
+![CAN Loopback](img/can_rx_loopback.png)
 
 ### PWM Output — PulseView Capture
 - PWM duty cycle sweeps from 0% to 100% continuously and the period remains constant at 1.0ms and 1kHz frequency is also maintained.
