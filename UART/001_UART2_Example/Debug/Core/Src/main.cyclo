@@ -1,5 +1,0 @@
-../Core/Src/main.c:21:5:main	3
-../Core/Src/main.c:58:6:SystemClockConfig	1
-../Core/Src/main.c:63:6:UART2_Init	2
-../Core/Src/main.c:79:9:convert_to_capital	3
-../Core/Src/main.c:88:6:Error_handler	1
