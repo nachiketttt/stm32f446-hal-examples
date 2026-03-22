@@ -63,9 +63,9 @@ all are written manually.
 ### Low power mode (Sleep ON exit) - Multimeter Output
 #### Processor current consumption after Sleep ON exit enabled 
 #### Before it was around 3mA
-![Low power mode (Sleep ON exit)](img/after_sleep.png)
+![Low power mode (Sleep ON exit)](img/after_sleep.jpg)
 
 ### Moserial output confirms UART print on each wake cycle 
 #### Verifying interrupt handler executed correctly.
-![Moserial wake confirmation](images/sleepexit_moserial.png)
+![Moserial wake confirmation](img/sleepexit_moserial.png)
 
