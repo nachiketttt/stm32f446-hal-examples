@@ -38,6 +38,7 @@ all are written manually.
 | Projects | Description |
 |---------|-------------|
 | 013_CAN_LoopBack | CAN1 loopback test where TX frame received back and verified |
+| 014_CAN_LoopBack_IT | CAN1 loopback test in interrupt mode |
 
 ## Key Implementation Notes
 - HSE requires `RCC_HSE_BYPASS` on Nucleo (it uses ST-LINK clock)
@@ -62,7 +63,7 @@ all are written manually.
 
 ### Low power mode (Sleep ON exit) - Multimeter Output
 #### Processor current consumption after Sleep ON exit enabled 
-#### Before it was around 3mA
+#### Active mode: ~3.45mA → Sleep mode: ~2.29mA
 ![Low power mode (Sleep ON exit)](img/after_sleep.jpg)
 
 ### Moserial output confirms UART print on each wake cycle 
