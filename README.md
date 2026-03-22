@@ -59,3 +59,13 @@ all are written manually.
 
 #### PWM Output - Falling
 ![PWM Waveform Falling](img/pwm_down.png)
+
+### Low power mode (Sleep ON exit) - Multimeter Output
+#### Processor current consumption after Sleep ON exit enabled 
+#### Before it was around 3mA
+![Low power mode (Sleep ON exit)](img/after_sleep.png)
+
+### Moserial output confirms UART print on each wake cycle 
+#### Verifying interrupt handler executed correctly.
+![Moserial wake confirmation](images/sleepexit_moserial.png)
+
