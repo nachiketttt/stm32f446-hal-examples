@@ -70,3 +70,12 @@ all are written manually.
 #### Verifying interrupt handler executed correctly.
 ![Moserial wake confirmation](img/sleepexit_moserial.png)
 
+### Low power mode (WFI) - Multimeter Output
+#### Processor current consumption after WFI is called
+#### No WFI: ~11.00mA → WFI called: ~1.50mA
+![Low power mode (WFI)](img/after_wfi.jpg)
+
+### Moserial output confirms UART print on each wake cycle triggered by pressing on board button
+#### Verifying interrupt handler executed correctly.
+![Moserial wake confirmation](img/moserial_wfi.png)
+
