@@ -79,3 +79,5 @@ all are written manually.
 #### Verifying interrupt handler executed correctly.
 ![Moserial wake confirmation](img/moserial_wfi.png)
 
+### Moserial output displaying the RTC actively keeping the time and date
+![Moserial output](img/rtc_dateTime.png)
