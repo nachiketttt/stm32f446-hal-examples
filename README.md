@@ -81,3 +81,6 @@ all are written manually.
 
 ### Moserial output displaying the RTC actively keeping the time and date
 ![Moserial output](img/rtc_dateTime.png)
+
+### Moserial output displaying the alarm being triggered at given time
+![Moserial output](img/alarm.png)
