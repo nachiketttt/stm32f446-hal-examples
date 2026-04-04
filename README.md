@@ -7,7 +7,7 @@ All written manually.
 
 ## Hardware
 - STM32 Nucleo F446RE
-- Logic analyzer (Saleae) for signal verification
+- Logic analyzer (Saleae clone) for signal verification
 - TJA1050 CAN transceiver for CAN examples
 
 ## Contents
@@ -64,7 +64,7 @@ All written manually.
 ## Verification
 
 ### CAN Loopback
-CAN1 loopback frame decoded on Saleae logic analyzer showing ID, DLC, data bytes and CRC-15.
+CAN1 loopback frame decoded on logic analyzer showing ID, DLC, data bytes and CRC-15.
 
 ![CAN Loopback PulseView](img/CAN_loopback.png)
 
