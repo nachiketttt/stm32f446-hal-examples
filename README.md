@@ -68,6 +68,9 @@ CAN1 loopback frame decoded on logic analyzer showing ID, DLC, data bytes and CR
 
 ![CAN Loopback PulseView](img/CAN_loopback.png)
 
+CAN1 loopback frame received from loopback mode and transmitted via UART to the host
+![CAN Loopback Moserial](img/can_rx_loopback.png)
+
 ### PWM Output
 PWM duty cycle sweeps 0% to 100% continuously. Period constant at 1.0ms, frequency maintained at 1kHz.
 
